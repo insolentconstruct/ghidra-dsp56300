@@ -1,0 +1,192 @@
+# Family Manual Rev. 5, Chapter 13: fixed bits in opcode diagrams.
+# Each slot: opcode, extension/NOP, trailing NOP; disassemble separately.
+# reset valid
+84 00 00 00 00 00 00 00 00
+# reset reserved bit 4
+94 00 00 00 00 00 00 00 00
+# reset reserved bit 6
+c4 00 00 00 00 00 00 00 00
+# stop valid
+87 00 00 00 00 00 00 00 00
+# stop reserved bit 4
+97 00 00 00 00 00 00 00 00
+# stop reserved bit 6
+c7 00 00 00 00 00 00 00 00
+# wait valid
+86 00 00 00 00 00 00 00 00
+# wait reserved bit 4
+96 00 00 00 00 00 00 00 00
+# wait reserved bit 6
+c6 00 00 00 00 00 00 00 00
+# enddo valid
+8c 00 00 00 00 00 00 00 00
+# enddo reserved bit 4
+9c 00 00 00 00 00 00 00 00
+# enddo reserved bit 6
+cc 00 00 00 00 00 00 00 00
+# rep #1 valid
+a0 01 06 00 00 00 00 00 00
+# rep #1 reserved bit 4
+b0 01 06 00 00 00 00 00 00
+# tcc a,b valid
+08 00 02 00 00 00 00 00 00
+# tcc a,b reserved bit 0
+09 00 02 00 00 00 00 00 00
+# tcc a,b reserved bit 8
+08 01 02 00 00 00 00 00 00
+# tcc r0,r0 valid
+00 08 02 00 00 00 00 00 00
+# tcc r0,r0 reserved bit 3
+08 08 02 00 00 00 00 00 00
+# tcc r0,r0 reserved bit 7
+80 08 02 00 00 00 00 00 00
+# lra valid
+44 40 04 00 00 00 00 00 00
+# lra reserved bit 8
+44 41 04 00 00 00 00 00 00
+# lra reserved bit 13
+44 60 04 00 00 00 00 00 00
+# movec x0,m0 valid
+a0 c4 04 00 00 00 00 00 00
+# movec x0,m0 reserved bit 6
+e0 c4 04 00 00 00 00 00 00
+# movec m0,x0 valid
+a0 44 04 00 00 00 00 00 00
+# movec m0,x0 reserved bit 6
+e0 44 04 00 00 00 00 00 00
+# movec immediate valid
+20 f4 05 00 00 00 00 00 00
+# movec immediate reserved bit 6
+60 f4 05 00 00 00 00 00 00
+# movep immediate pp valid
+80 f4 08 00 00 00 00 00 00
+# movep immediate pp reserved bit 6
+c0 f4 08 00 00 00 00 00 00
+# movep immediate qq x valid
+00 f4 07 00 00 00 00 00 00
+# movep immediate qq x reserved bit 6
+40 f4 07 00 00 00 00 00 00
+# movep immediate qq y valid
+80 b4 07 00 00 00 00 00 00
+# movep immediate qq y reserved bit 6
+c0 b4 07 00 00 00 00 00 00
+# add #1 valid
+80 41 01 00 00 00 00 00 00
+# add #1 reserved bit 4
+90 41 01 00 00 00 00 00 00
+# add #1 reserved bit 5
+a0 41 01 00 00 00 00 00 00
+# add long immediate valid
+c0 40 01 00 00 00 00 00 00
+# add long immediate reserved bit 4
+d0 40 01 00 00 00 00 00 00
+# add long immediate reserved bit 13
+c0 60 01 00 00 00 00 00 00
+# sub #1 valid
+84 41 01 00 00 00 00 00 00
+# sub #1 reserved bit 4
+94 41 01 00 00 00 00 00 00
+# sub #1 reserved bit 5
+a4 41 01 00 00 00 00 00 00
+# sub long immediate valid
+c4 40 01 00 00 00 00 00 00
+# sub long immediate reserved bit 4
+d4 40 01 00 00 00 00 00 00
+# sub long immediate reserved bit 13
+c4 60 01 00 00 00 00 00 00
+# cmp #1 valid
+85 41 01 00 00 00 00 00 00
+# cmp #1 reserved bit 4
+95 41 01 00 00 00 00 00 00
+# cmp #1 reserved bit 5
+a5 41 01 00 00 00 00 00 00
+# cmp long immediate valid
+c5 40 01 00 00 00 00 00 00
+# cmp long immediate reserved bit 4
+d5 40 01 00 00 00 00 00 00
+# cmp long immediate reserved bit 13
+c5 60 01 00 00 00 00 00 00
+# and #1 valid
+86 41 01 00 00 00 00 00 00
+# and #1 reserved bit 4
+96 41 01 00 00 00 00 00 00
+# and #1 reserved bit 5
+a6 41 01 00 00 00 00 00 00
+# and long immediate valid
+c6 40 01 00 00 00 00 00 00
+# and long immediate reserved bit 4
+d6 40 01 00 00 00 00 00 00
+# and long immediate reserved bit 13
+c6 60 01 00 00 00 00 00 00
+# or #1 valid
+82 41 01 00 00 00 00 00 00
+# or #1 reserved bit 4
+92 41 01 00 00 00 00 00 00
+# or #1 reserved bit 5
+a2 41 01 00 00 00 00 00 00
+# or long immediate valid
+c2 40 01 00 00 00 00 00 00
+# or long immediate reserved bit 4
+d2 40 01 00 00 00 00 00 00
+# or long immediate reserved bit 13
+c2 60 01 00 00 00 00 00 00
+# eor #1 valid
+83 41 01 00 00 00 00 00 00
+# eor #1 reserved bit 4
+93 41 01 00 00 00 00 00 00
+# eor #1 reserved bit 5
+a3 41 01 00 00 00 00 00 00
+# eor long immediate valid
+c3 40 01 00 00 00 00 00 00
+# eor long immediate reserved bit 4
+d3 40 01 00 00 00 00 00 00
+# eor long immediate reserved bit 13
+c3 60 01 00 00 00 00 00 00
+# mpyi valid
+c0 41 01 00 00 00 00 00 00
+# mpyi reserved bit 9
+c0 43 01 00 00 00 00 00 00
+# mpyi reserved bit 13
+c0 61 01 00 00 00 00 00 00
+# mpyri valid
+c1 41 01 00 00 00 00 00 00
+# mpyri reserved bit 9
+c1 43 01 00 00 00 00 00 00
+# mpyri reserved bit 13
+c1 61 01 00 00 00 00 00 00
+# maci valid
+c2 41 01 00 00 00 00 00 00
+# maci reserved bit 9
+c2 43 01 00 00 00 00 00 00
+# maci reserved bit 13
+c2 61 01 00 00 00 00 00 00
+# macri valid
+c3 41 01 00 00 00 00 00 00
+# macri reserved bit 9
+c3 43 01 00 00 00 00 00 00
+# macri reserved bit 13
+c3 61 01 00 00 00 00 00 00
+# mpyi negative valid
+c4 41 01 00 00 00 00 00 00
+# mpyi negative reserved bit 9
+c4 43 01 00 00 00 00 00 00
+# mpyi negative reserved bit 13
+c4 61 01 00 00 00 00 00 00
+# mpyri negative valid
+c5 41 01 00 00 00 00 00 00
+# mpyri negative reserved bit 9
+c5 43 01 00 00 00 00 00 00
+# mpyri negative reserved bit 13
+c5 61 01 00 00 00 00 00 00
+# maci negative valid
+c6 41 01 00 00 00 00 00 00
+# maci negative reserved bit 9
+c6 43 01 00 00 00 00 00 00
+# maci negative reserved bit 13
+c6 61 01 00 00 00 00 00 00
+# macri negative valid
+c7 41 01 00 00 00 00 00 00
+# macri negative reserved bit 9
+c7 43 01 00 00 00 00 00 00
+# macri negative reserved bit 13
+c7 61 01 00 00 00 00 00 00

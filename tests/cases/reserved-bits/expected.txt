@@ -1,0 +1,390 @@
+SMOKE block P P:000100-P:00021c.2 init rwx
+SMOKE P:000100 reset
+SMOKE P:000101 nop  (no p-code)
+SMOKE P:000102 nop  (no p-code)
+SMOKE P:000103 ??
+SMOKE P:000103.1 ??
+SMOKE P:000103.2 ??
+SMOKE P:000104 nop  (no p-code)
+SMOKE P:000105 nop  (no p-code)
+SMOKE P:000106 ??
+SMOKE P:000106.1 ??
+SMOKE P:000106.2 ??
+SMOKE P:000107 nop  (no p-code)
+SMOKE P:000108 nop  (no p-code)
+SMOKE P:000109 stop
+SMOKE P:00010a nop  (no p-code)
+SMOKE P:00010b nop  (no p-code)
+SMOKE P:00010c ??
+SMOKE P:00010c.1 ??
+SMOKE P:00010c.2 ??
+SMOKE P:00010d nop  (no p-code)
+SMOKE P:00010e nop  (no p-code)
+SMOKE P:00010f ??
+SMOKE P:00010f.1 ??
+SMOKE P:00010f.2 ??
+SMOKE P:000110 nop  (no p-code)
+SMOKE P:000111 nop  (no p-code)
+SMOKE P:000112 wait
+SMOKE P:000113 nop  (no p-code)
+SMOKE P:000114 nop  (no p-code)
+SMOKE P:000115 ??
+SMOKE P:000115.1 ??
+SMOKE P:000115.2 ??
+SMOKE P:000116 nop  (no p-code)
+SMOKE P:000117 nop  (no p-code)
+SMOKE P:000118 ??
+SMOKE P:000118.1 ??
+SMOKE P:000118.2 ??
+SMOKE P:000119 nop  (no p-code)
+SMOKE P:00011a nop  (no p-code)
+SMOKE P:00011b enddo
+SMOKE P:00011c nop  (no p-code)
+SMOKE P:00011d nop  (no p-code)
+SMOKE P:00011e ??
+SMOKE P:00011e.1 ??
+SMOKE P:00011e.2 ??
+SMOKE P:00011f nop  (no p-code)
+SMOKE P:000120 nop  (no p-code)
+SMOKE P:000121 ??
+SMOKE P:000121.1 ??
+SMOKE P:000121.2 ??
+SMOKE P:000122 nop  (no p-code)
+SMOKE P:000123 nop  (no p-code)
+SMOKE P:000124 rep #0x1
+SMOKE P:000125 nop
+SMOKE P:000126 nop  (no p-code)
+SMOKE P:000127 ??
+SMOKE P:000127.1 ??
+SMOKE P:000127.2 ??
+SMOKE P:000128 nop  (no p-code)
+SMOKE P:000129 nop  (no p-code)
+SMOKE P:00012a tcc a,b
+SMOKE P:00012b nop  (no p-code)
+SMOKE P:00012c nop  (no p-code)
+SMOKE P:00012d ??
+SMOKE P:00012d.1 ??
+SMOKE P:00012d.2 ??
+SMOKE P:00012e nop  (no p-code)
+SMOKE P:00012f nop  (no p-code)
+SMOKE P:000130 ??
+SMOKE P:000130.1 ??
+SMOKE P:000130.2 ??
+SMOKE P:000131 nop  (no p-code)
+SMOKE P:000132 nop  (no p-code)
+SMOKE P:000133 tcc r0,r0
+SMOKE P:000134 nop  (no p-code)
+SMOKE P:000135 nop  (no p-code)
+SMOKE P:000136 ??
+SMOKE P:000136.1 ??
+SMOKE P:000136.2 ??
+SMOKE P:000137 nop  (no p-code)
+SMOKE P:000138 nop  (no p-code)
+SMOKE P:000139 ??
+SMOKE P:000139.1 ??
+SMOKE P:000139.2 ??
+SMOKE P:00013a nop  (no p-code)
+SMOKE P:00013b nop  (no p-code)
+SMOKE P:00013c lra 0x00013c,x0
+SMOKE P:00013e nop  (no p-code)
+SMOKE P:00013f ??
+SMOKE P:00013f.1 ??
+SMOKE P:00013f.2 ??
+SMOKE P:000140 nop  (no p-code)
+SMOKE P:000141 nop  (no p-code)
+SMOKE P:000142 ??
+SMOKE P:000142.1 ??
+SMOKE P:000142.2 ??
+SMOKE P:000143 nop  (no p-code)
+SMOKE P:000144 nop  (no p-code)
+SMOKE P:000145 movec x0,m0
+SMOKE P:000146 nop  (no p-code)
+SMOKE P:000147 nop  (no p-code)
+SMOKE P:000148 ??
+SMOKE P:000148.1 ??
+SMOKE P:000148.2 ??
+SMOKE P:000149 nop  (no p-code)
+SMOKE P:00014a nop  (no p-code)
+SMOKE P:00014b movec m0,x0
+SMOKE P:00014c nop  (no p-code)
+SMOKE P:00014d nop  (no p-code)
+SMOKE P:00014e ??
+SMOKE P:00014e.1 ??
+SMOKE P:00014e.2 ??
+SMOKE P:00014f nop  (no p-code)
+SMOKE P:000150 nop  (no p-code)
+SMOKE P:000151 movec #>0x0,m0
+SMOKE P:000153 nop  (no p-code)
+SMOKE P:000154 ??
+SMOKE P:000154.1 ??
+SMOKE P:000154.2 ??
+SMOKE P:000155 nop  (no p-code)
+SMOKE P:000156 nop  (no p-code)
+SMOKE P:000157 movep #>0x0,x:<<0xffffc0
+SMOKE P:000159 nop  (no p-code)
+SMOKE P:00015a ??
+SMOKE P:00015a.1 ??
+SMOKE P:00015a.2 ??
+SMOKE P:00015b nop  (no p-code)
+SMOKE P:00015c nop  (no p-code)
+SMOKE P:00015d movep #>0x0,x:<<0xffff80
+SMOKE P:00015f nop  (no p-code)
+SMOKE P:000160 ??
+SMOKE P:000160.1 ??
+SMOKE P:000160.2 ??
+SMOKE P:000161 nop  (no p-code)
+SMOKE P:000162 nop  (no p-code)
+SMOKE P:000163 movep #>0x0,y:<<0xffff80
+SMOKE P:000165 nop  (no p-code)
+SMOKE P:000166 ??
+SMOKE P:000166.1 ??
+SMOKE P:000166.2 ??
+SMOKE P:000167 nop  (no p-code)
+SMOKE P:000168 nop  (no p-code)
+SMOKE P:000169 add #0x1,a
+SMOKE P:00016a nop  (no p-code)
+SMOKE P:00016b nop  (no p-code)
+SMOKE P:00016c ??
+SMOKE P:00016c.1 ??
+SMOKE P:00016c.2 ??
+SMOKE P:00016d nop  (no p-code)
+SMOKE P:00016e nop  (no p-code)
+SMOKE P:00016f ??
+SMOKE P:00016f.1 ??
+SMOKE P:00016f.2 ??
+SMOKE P:000170 nop  (no p-code)
+SMOKE P:000171 nop  (no p-code)
+SMOKE P:000172 add #>0x0,a
+SMOKE P:000174 nop  (no p-code)
+SMOKE P:000175 ??
+SMOKE P:000175.1 ??
+SMOKE P:000175.2 ??
+SMOKE P:000176 nop  (no p-code)
+SMOKE P:000177 nop  (no p-code)
+SMOKE P:000178 ??
+SMOKE P:000178.1 ??
+SMOKE P:000178.2 ??
+SMOKE P:000179 nop  (no p-code)
+SMOKE P:00017a nop  (no p-code)
+SMOKE P:00017b sub #0x1,a
+SMOKE P:00017c nop  (no p-code)
+SMOKE P:00017d nop  (no p-code)
+SMOKE P:00017e ??
+SMOKE P:00017e.1 ??
+SMOKE P:00017e.2 ??
+SMOKE P:00017f nop  (no p-code)
+SMOKE P:000180 nop  (no p-code)
+SMOKE P:000181 ??
+SMOKE P:000181.1 ??
+SMOKE P:000181.2 ??
+SMOKE P:000182 nop  (no p-code)
+SMOKE P:000183 nop  (no p-code)
+SMOKE P:000184 sub #>0x0,a
+SMOKE P:000186 nop  (no p-code)
+SMOKE P:000187 ??
+SMOKE P:000187.1 ??
+SMOKE P:000187.2 ??
+SMOKE P:000188 nop  (no p-code)
+SMOKE P:000189 nop  (no p-code)
+SMOKE P:00018a ??
+SMOKE P:00018a.1 ??
+SMOKE P:00018a.2 ??
+SMOKE P:00018b nop  (no p-code)
+SMOKE P:00018c nop  (no p-code)
+SMOKE P:00018d cmp #0x1,a
+SMOKE P:00018e nop  (no p-code)
+SMOKE P:00018f nop  (no p-code)
+SMOKE P:000190 ??
+SMOKE P:000190.1 ??
+SMOKE P:000190.2 ??
+SMOKE P:000191 nop  (no p-code)
+SMOKE P:000192 nop  (no p-code)
+SMOKE P:000193 ??
+SMOKE P:000193.1 ??
+SMOKE P:000193.2 ??
+SMOKE P:000194 nop  (no p-code)
+SMOKE P:000195 nop  (no p-code)
+SMOKE P:000196 cmp #>0x0,a
+SMOKE P:000198 nop  (no p-code)
+SMOKE P:000199 ??
+SMOKE P:000199.1 ??
+SMOKE P:000199.2 ??
+SMOKE P:00019a nop  (no p-code)
+SMOKE P:00019b nop  (no p-code)
+SMOKE P:00019c ??
+SMOKE P:00019c.1 ??
+SMOKE P:00019c.2 ??
+SMOKE P:00019d nop  (no p-code)
+SMOKE P:00019e nop  (no p-code)
+SMOKE P:00019f and #0x1,a
+SMOKE P:0001a0 nop  (no p-code)
+SMOKE P:0001a1 nop  (no p-code)
+SMOKE P:0001a2 ??
+SMOKE P:0001a2.1 ??
+SMOKE P:0001a2.2 ??
+SMOKE P:0001a3 nop  (no p-code)
+SMOKE P:0001a4 nop  (no p-code)
+SMOKE P:0001a5 ??
+SMOKE P:0001a5.1 ??
+SMOKE P:0001a5.2 ??
+SMOKE P:0001a6 nop  (no p-code)
+SMOKE P:0001a7 nop  (no p-code)
+SMOKE P:0001a8 and #>0x0,a
+SMOKE P:0001aa nop  (no p-code)
+SMOKE P:0001ab ??
+SMOKE P:0001ab.1 ??
+SMOKE P:0001ab.2 ??
+SMOKE P:0001ac nop  (no p-code)
+SMOKE P:0001ad nop  (no p-code)
+SMOKE P:0001ae ??
+SMOKE P:0001ae.1 ??
+SMOKE P:0001ae.2 ??
+SMOKE P:0001af nop  (no p-code)
+SMOKE P:0001b0 nop  (no p-code)
+SMOKE P:0001b1 or #0x1,a
+SMOKE P:0001b2 nop  (no p-code)
+SMOKE P:0001b3 nop  (no p-code)
+SMOKE P:0001b4 ??
+SMOKE P:0001b4.1 ??
+SMOKE P:0001b4.2 ??
+SMOKE P:0001b5 nop  (no p-code)
+SMOKE P:0001b6 nop  (no p-code)
+SMOKE P:0001b7 ??
+SMOKE P:0001b7.1 ??
+SMOKE P:0001b7.2 ??
+SMOKE P:0001b8 nop  (no p-code)
+SMOKE P:0001b9 nop  (no p-code)
+SMOKE P:0001ba or #>0x0,a
+SMOKE P:0001bc nop  (no p-code)
+SMOKE P:0001bd ??
+SMOKE P:0001bd.1 ??
+SMOKE P:0001bd.2 ??
+SMOKE P:0001be nop  (no p-code)
+SMOKE P:0001bf nop  (no p-code)
+SMOKE P:0001c0 ??
+SMOKE P:0001c0.1 ??
+SMOKE P:0001c0.2 ??
+SMOKE P:0001c1 nop  (no p-code)
+SMOKE P:0001c2 nop  (no p-code)
+SMOKE P:0001c3 eor #0x1,a
+SMOKE P:0001c4 nop  (no p-code)
+SMOKE P:0001c5 nop  (no p-code)
+SMOKE P:0001c6 ??
+SMOKE P:0001c6.1 ??
+SMOKE P:0001c6.2 ??
+SMOKE P:0001c7 nop  (no p-code)
+SMOKE P:0001c8 nop  (no p-code)
+SMOKE P:0001c9 ??
+SMOKE P:0001c9.1 ??
+SMOKE P:0001c9.2 ??
+SMOKE P:0001ca nop  (no p-code)
+SMOKE P:0001cb nop  (no p-code)
+SMOKE P:0001cc eor #>0x0,a
+SMOKE P:0001ce nop  (no p-code)
+SMOKE P:0001cf ??
+SMOKE P:0001cf.1 ??
+SMOKE P:0001cf.2 ??
+SMOKE P:0001d0 nop  (no p-code)
+SMOKE P:0001d1 nop  (no p-code)
+SMOKE P:0001d2 ??
+SMOKE P:0001d2.1 ??
+SMOKE P:0001d2.2 ??
+SMOKE P:0001d3 nop  (no p-code)
+SMOKE P:0001d4 nop  (no p-code)
+SMOKE P:0001d5 mpyi #>0x0,x0,a
+SMOKE P:0001d7 nop  (no p-code)
+SMOKE P:0001d8 ??
+SMOKE P:0001d8.1 ??
+SMOKE P:0001d8.2 ??
+SMOKE P:0001d9 nop  (no p-code)
+SMOKE P:0001da nop  (no p-code)
+SMOKE P:0001db ??
+SMOKE P:0001db.1 ??
+SMOKE P:0001db.2 ??
+SMOKE P:0001dc nop  (no p-code)
+SMOKE P:0001dd nop  (no p-code)
+SMOKE P:0001de mpyri #>0x0,x0,a
+SMOKE P:0001e0 nop  (no p-code)
+SMOKE P:0001e1 ??
+SMOKE P:0001e1.1 ??
+SMOKE P:0001e1.2 ??
+SMOKE P:0001e2 nop  (no p-code)
+SMOKE P:0001e3 nop  (no p-code)
+SMOKE P:0001e4 ??
+SMOKE P:0001e4.1 ??
+SMOKE P:0001e4.2 ??
+SMOKE P:0001e5 nop  (no p-code)
+SMOKE P:0001e6 nop  (no p-code)
+SMOKE P:0001e7 maci #>0x0,x0,a
+SMOKE P:0001e9 nop  (no p-code)
+SMOKE P:0001ea ??
+SMOKE P:0001ea.1 ??
+SMOKE P:0001ea.2 ??
+SMOKE P:0001eb nop  (no p-code)
+SMOKE P:0001ec nop  (no p-code)
+SMOKE P:0001ed ??
+SMOKE P:0001ed.1 ??
+SMOKE P:0001ed.2 ??
+SMOKE P:0001ee nop  (no p-code)
+SMOKE P:0001ef nop  (no p-code)
+SMOKE P:0001f0 macri #>0x0,x0,a
+SMOKE P:0001f2 nop  (no p-code)
+SMOKE P:0001f3 ??
+SMOKE P:0001f3.1 ??
+SMOKE P:0001f3.2 ??
+SMOKE P:0001f4 nop  (no p-code)
+SMOKE P:0001f5 nop  (no p-code)
+SMOKE P:0001f6 ??
+SMOKE P:0001f6.1 ??
+SMOKE P:0001f6.2 ??
+SMOKE P:0001f7 nop  (no p-code)
+SMOKE P:0001f8 nop  (no p-code)
+SMOKE P:0001f9 mpyi -#>0x0,x0,a
+SMOKE P:0001fb nop  (no p-code)
+SMOKE P:0001fc ??
+SMOKE P:0001fc.1 ??
+SMOKE P:0001fc.2 ??
+SMOKE P:0001fd nop  (no p-code)
+SMOKE P:0001fe nop  (no p-code)
+SMOKE P:0001ff ??
+SMOKE P:0001ff.1 ??
+SMOKE P:0001ff.2 ??
+SMOKE P:000200 nop  (no p-code)
+SMOKE P:000201 nop  (no p-code)
+SMOKE P:000202 mpyri -#>0x0,x0,a
+SMOKE P:000204 nop  (no p-code)
+SMOKE P:000205 ??
+SMOKE P:000205.1 ??
+SMOKE P:000205.2 ??
+SMOKE P:000206 nop  (no p-code)
+SMOKE P:000207 nop  (no p-code)
+SMOKE P:000208 ??
+SMOKE P:000208.1 ??
+SMOKE P:000208.2 ??
+SMOKE P:000209 nop  (no p-code)
+SMOKE P:00020a nop  (no p-code)
+SMOKE P:00020b maci -#>0x0,x0,a
+SMOKE P:00020d nop  (no p-code)
+SMOKE P:00020e ??
+SMOKE P:00020e.1 ??
+SMOKE P:00020e.2 ??
+SMOKE P:00020f nop  (no p-code)
+SMOKE P:000210 nop  (no p-code)
+SMOKE P:000211 ??
+SMOKE P:000211.1 ??
+SMOKE P:000211.2 ??
+SMOKE P:000212 nop  (no p-code)
+SMOKE P:000213 nop  (no p-code)
+SMOKE P:000214 macri -#>0x0,x0,a
+SMOKE P:000216 nop  (no p-code)
+SMOKE P:000217 ??
+SMOKE P:000217.1 ??
+SMOKE P:000217.2 ??
+SMOKE P:000218 nop  (no p-code)
+SMOKE P:000219 nop  (no p-code)
+SMOKE P:00021a ??
+SMOKE P:00021a.1 ??
+SMOKE P:00021a.2 ??
+SMOKE P:00021b nop  (no p-code)
+SMOKE P:00021c nop  (no p-code)
+SMOKE analyzer DSP56300 Loop End
