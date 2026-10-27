@@ -1,0 +1,66 @@
+SMOKE block P P:000100-P:00013b.2 init rwx
+SMOKE P:000100 brclr #0x0,x:(r0),0x000100
+SMOKE P:000102 nop  (no p-code)
+SMOKE P:000103 ??
+SMOKE P:000103.1 ??
+SMOKE P:000103.2 ??
+SMOKE P:000104 nop  (no p-code)
+SMOKE P:000105 nop  (no p-code)
+SMOKE P:000106 brclr #0x0,y:(r0),0x000106
+SMOKE P:000108 nop  (no p-code)
+SMOKE P:000109 ??
+SMOKE P:000109.1 ??
+SMOKE P:000109.2 ??
+SMOKE P:00010a nop  (no p-code)
+SMOKE P:00010b nop  (no p-code)
+SMOKE P:00010c brset #0x0,x:(r0),0x00010c
+SMOKE P:00010e nop  (no p-code)
+SMOKE P:00010f ??
+SMOKE P:00010f.1 ??
+SMOKE P:00010f.2 ??
+SMOKE P:000110 nop  (no p-code)
+SMOKE P:000111 nop  (no p-code)
+SMOKE P:000112 brset #0x0,y:(r0),0x000112
+SMOKE P:000114 nop  (no p-code)
+SMOKE P:000115 ??
+SMOKE P:000115.1 ??
+SMOKE P:000115.2 ??
+SMOKE P:000116 nop  (no p-code)
+SMOKE P:000117 nop  (no p-code)
+SMOKE P:000118 bsclr #0x0,x:(r0),0x000118
+SMOKE P:00011a nop  (no p-code)
+SMOKE P:00011b ??
+SMOKE P:00011b.1 ??
+SMOKE P:00011b.2 ??
+SMOKE P:00011c nop  (no p-code)
+SMOKE P:00011d nop  (no p-code)
+SMOKE P:00011e bsclr #0x0,y:(r0),0x00011e
+SMOKE P:000120 nop  (no p-code)
+SMOKE P:000121 ??
+SMOKE P:000121.1 ??
+SMOKE P:000121.2 ??
+SMOKE P:000122 nop  (no p-code)
+SMOKE P:000123 nop  (no p-code)
+SMOKE P:000124 bsset #0x0,x:(r0),0x000124
+SMOKE P:000126 nop  (no p-code)
+SMOKE P:000127 ??
+SMOKE P:000127.1 ??
+SMOKE P:000127.2 ??
+SMOKE P:000128 nop  (no p-code)
+SMOKE P:000129 nop  (no p-code)
+SMOKE P:00012a bsset #0x0,y:(r0),0x00012a
+SMOKE P:00012c nop  (no p-code)
+SMOKE P:00012d ??
+SMOKE P:00012d.1 ??
+SMOKE P:00012d.2 ??
+SMOKE P:00012e nop  (no p-code)
+SMOKE P:00012f nop  (no p-code)
+SMOKE P:000130 brclr #0x0,x:<0x000000,0x000130
+SMOKE P:000132 nop  (no p-code)
+SMOKE P:000133 brset #0x0,x:<<0xffffc0,0x000133
+SMOKE P:000135 nop  (no p-code)
+SMOKE P:000136 bsclr #0x0,x:<<0xffff80,0x000136
+SMOKE P:000138 nop  (no p-code)
+SMOKE P:000139 bsset #0x0,x0,0x000139
+SMOKE P:00013b nop  (no p-code)
+SMOKE analyzer DSP56300 Loop End

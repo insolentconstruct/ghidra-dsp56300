@@ -1,0 +1,41 @@
+# Family Manual Rev. 5, Chapter 13: BRCLR/BRSET/BSCLR/BSSET.
+# brclr x: valid (r0)
+00 a0 0c 00 00 00 00 00 00
+# brclr x: reject absolute ea
+00 b0 0c 00 00 00 00 00 00
+# brclr y: valid (r0)
+40 a0 0c 00 00 00 00 00 00
+# brclr y: reject absolute ea
+40 b0 0c 00 00 00 00 00 00
+# brset x: valid (r0)
+20 a0 0c 00 00 00 00 00 00
+# brset x: reject absolute ea
+20 b0 0c 00 00 00 00 00 00
+# brset y: valid (r0)
+60 a0 0c 00 00 00 00 00 00
+# brset y: reject absolute ea
+60 b0 0c 00 00 00 00 00 00
+# bsclr x: valid (r0)
+00 a0 0d 00 00 00 00 00 00
+# bsclr x: reject absolute ea
+00 b0 0d 00 00 00 00 00 00
+# bsclr y: valid (r0)
+40 a0 0d 00 00 00 00 00 00
+# bsclr y: reject absolute ea
+40 b0 0d 00 00 00 00 00 00
+# bsset x: valid (r0)
+20 a0 0d 00 00 00 00 00 00
+# bsset x: reject absolute ea
+20 b0 0d 00 00 00 00 00 00
+# bsset y: valid (r0)
+60 a0 0d 00 00 00 00 00 00
+# bsset y: reject absolute ea
+60 b0 0d 00 00 00 00 00 00
+# brclr absolute short
+80 80 0c 00 00 00 00 00 00
+# brset I/O short pp
+20 c0 0c 00 00 00 00 00 00
+# bsclr I/O short qq
+80 80 04 00 00 00 00 00 00
+# bsset register x0
+a0 c4 0d 00 00 00 00 00 00
